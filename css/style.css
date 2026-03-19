@@ -1,0 +1,44 @@
+
+.hero{
+    height:90vh;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    color:white;
+    display:flex;
+    align-items:center;
+}
+
+/* hero text */
+.hero h1{
+    font-size:52px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+/* profile image */
+.profile-img{
+    width:250px;
+    border-radius:50%;
+    border:6px solid white;
+}
+
+/* skills cards */
+.skill-card{
+    border:none;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* footer */
+footer{
+    background:#111;
+    color:#ccc;
+}
+
